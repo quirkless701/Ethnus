@@ -1,0 +1,9 @@
+table {
+    width: 100%;
+    border-spacing: 1.5px;
+}
+
+th, td {
+    background-color: rgb(150, 212, 211);
+  }
+

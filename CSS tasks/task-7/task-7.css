@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(162, 43, 85);
+}
+
+.form-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(117, 32, 63);
+    display: flex;
+    justify-content: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    color: white;
+    margin-right: 40px;
+}
+
+.form-input {
+    width: 50%;
+}
+
+.submit-button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.gender {
+    color: white;
+}

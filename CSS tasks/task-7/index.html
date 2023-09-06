@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Task-7</title>
+</head>
+<link rel="stylesheet" href="task-7.css"/>
+<body>
+
+    <div class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="your name">
+            </div>
+            <div class="form-group">
+                <label for="username" class="form-label">Email:</label>
+                <input type="text" id="username" name="username" class="form-input" placeholder="your email">
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label">Password:</label>
+                <input type="password" id="password" name="password" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="re-password" class="form-label">Phone number:</label>
+                <input type="password" id="re-password" name="re-password" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="gender" class="form-label">Gender:</label>
+                <div class="gender">
+                    Male:<input type="radio" name="gender">
+                    Female:<input type="radio" name="gender">
+                    Other:<input type="radio" name="gender">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="languages" class="form-label">language:</label>
+                <select id="country" name="country">
+                    <option value="" disabled selected>Select language</option>
+                    <option value="india">English</option>
+                    <option value="india">Hindi</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="age" class="form-label">Zip Code:</label>
+                <input type="number" id="age" name="age" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="address" class="form-label">Address:</label>
+                <textarea rows="4" type="text" id="address" name="address" placeholder="Write about yourself..."></textarea>
+            </div>
+
+            <button class="submit-button">Register</button>
+        </form> 
+    </div>
+</body>
+</html>
